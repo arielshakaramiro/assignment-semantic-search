@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.24
+faiss-cpu>=1.8
+google-genai>=1.20
+python-dotenv>=1.0
+jupyter>=1.0
+ipykernel>=6.0

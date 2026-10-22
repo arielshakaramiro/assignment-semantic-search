@@ -1,0 +1,284 @@
+{
+  "embedding_model": "gemini-embedding-001",
+  "llm_model": "gemini-flash-latest",
+  "results": [
+    {
+      "id": "Q1",
+      "type": "Langsung",
+      "query": "Metode pembayaran apa saja yang tersedia?",
+      "expected": [
+        17
+      ],
+      "answer": "Halo! Saat ini kami menyediakan metode pembayaran melalui transfer bank, kartu kredit/debit, e-wallet, serta pembayaran melalui minimarket rekanan. Silakan pilih metode yang paling nyaman untuk transaksi Anda, ya.\n\nSumber: FAQ #17",
+      "sources": [
+        {
+          "rank": 1,
+          "faq_id": 17,
+          "category": "Pembayaran",
+          "question": "Metode pembayaran apa saja yang tersedia?",
+          "answer": "Kami mendukung transfer bank, kartu kredit/debit, e-wallet, dan pembayaran melalui minimarket rekanan.",
+          "score": 0.7957
+        },
+        {
+          "rank": 2,
+          "faq_id": 22,
+          "category": "Pembayaran",
+          "question": "Apakah bisa membayar menggunakan lebih dari satu metode sekaligus?",
+          "answer": "Saat ini sistem belum mendukung pembayaran gabungan (split payment) dalam satu transaksi.",
+          "score": 0.7261
+        },
+        {
+          "rank": 3,
+          "faq_id": 20,
+          "category": "Pembayaran",
+          "question": "Apakah saya bisa membayar dengan cicilan?",
+          "answer": "Fitur cicilan tersedia untuk transaksi dengan kartu kredit tertentu pada nominal minimal yang ditentukan pihak bank.",
+          "score": 0.7062
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "type": "Langsung",
+      "query": "Bagaimana cara membatalkan pesanan?",
+      "expected": [
+        3
+      ],
+      "answer": "Halo! Kamu dapat membatalkan pesanan melalui halaman 'Pesanan Saya' selama status pesanan masih 'Diproses'. Mohon diperhatikan bahwa setelah status berubah menjadi 'Dikirim', pembatalan sudah tidak dapat dilakukan lagi.\n\nSumber: FAQ #3",
+      "sources": [
+        {
+          "rank": 1,
+          "faq_id": 3,
+          "category": "Pemesanan",
+          "question": "Bagaimana cara membatalkan pesanan yang sudah dibuat?",
+          "answer": "Pesanan dapat dibatalkan melalui halaman 'Pesanan Saya' selama status masih 'Diproses'. Setelah status berubah menjadi 'Dikirim', pembatalan tidak dapat dilakukan.",
+          "score": 0.7796
+        },
+        {
+          "rank": 2,
+          "faq_id": 24,
+          "category": "Pengembalian",
+          "question": "Bagaimana prosedur pengembalian barang yang tidak sesuai?",
+          "answer": "Ajukan pengembalian melalui menu 'Pesanan Saya' dengan memilih alasan dan menyertakan bukti foto, maksimal 3 hari sejak barang diterima.",
+          "score": 0.7139
+        },
+        {
+          "rank": 3,
+          "faq_id": 8,
+          "category": "Pemesanan",
+          "question": "Kenapa pesanan saya otomatis dibatalkan sistem?",
+          "answer": "Pesanan otomatis dibatalkan apabila pembayaran tidak diterima dalam batas waktu yang ditentukan, biasanya 24 jam setelah checkout.",
+          "score": 0.7028
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "type": "Parafrase",
+      "query": "Saldo saya sudah kepotong tapi orderan masih tertulis belum dibayar, gimana nih?",
+      "expected": [
+        21
+      ],
+      "answer": "Halo, mohon maaf atas ketidaknyamanan yang dialami. Hal ini biasanya terjadi karena adanya keterlambatan sinkronisasi pada sistem pembayaran. Silakan tunggu 15-30 menit atau hubungi customer service jika status pesanan masih belum berubah.\n\nSumber: FAQ #21",
+      "sources": [
+        {
+          "rank": 1,
+          "faq_id": 21,
+          "category": "Pembayaran",
+          "question": "Kenapa pembayaran saya berhasil dipotong tapi status pesanan masih belum terbayar?",
+          "answer": "Ini biasanya karena keterlambatan sinkronisasi sistem pembayaran. Silakan tunggu 15-30 menit atau hubungi customer service jika status belum berubah.",
+          "score": 0.8038
+        },
+        {
+          "rank": 2,
+          "faq_id": 8,
+          "category": "Pemesanan",
+          "question": "Kenapa pesanan saya otomatis dibatalkan sistem?",
+          "answer": "Pesanan otomatis dibatalkan apabila pembayaran tidak diterima dalam batas waktu yang ditentukan, biasanya 24 jam setelah checkout.",
+          "score": 0.7089
+        },
+        {
+          "rank": 3,
+          "faq_id": 19,
+          "category": "Pembayaran",
+          "question": "Berapa lama batas waktu pembayaran sebelum pesanan dibatalkan?",
+          "answer": "Batas waktu pembayaran umumnya 24 jam sejak pesanan dibuat, tergantung metode pembayaran yang dipilih.",
+          "score": 0.7057
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "type": "Parafrase",
+      "query": "Barang yang datang beda sama yang saya beli",
+      "expected": [
+        54,
+        24
+      ],
+      "answer": "Mohon maaf atas ketidaknyamanan yang Anda alami, silakan ikuti langkah-langkah berikut:\n1. Buka menu 'Pesanan Saya' dan ajukan komplain 'Barang Tidak Sesuai'.\n2. Sertakan bukti foto barang yang diterima untuk mempercepat proses verifikasi.\nPastikan pengajuan pengembalian ini dilakukan maksimal 3 hari sejak barang diterima.\n\nSumber: FAQ #24, FAQ #54",
+      "sources": [
+        {
+          "rank": 1,
+          "faq_id": 54,
+          "category": "Pengembalian",
+          "question": "Saya menerima barang yang salah, apa yang harus saya lakukan?",
+          "answer": "Ajukan komplain 'Barang Tidak Sesuai' melalui menu Pesanan Saya, sertakan foto barang yang diterima untuk mempercepat proses verifikasi.",
+          "score": 0.7992
+        },
+        {
+          "rank": 2,
+          "faq_id": 24,
+          "category": "Pengembalian",
+          "question": "Bagaimana prosedur pengembalian barang yang tidak sesuai?",
+          "answer": "Ajukan pengembalian melalui menu 'Pesanan Saya' dengan memilih alasan dan menyertakan bukti foto, maksimal 3 hari sejak barang diterima.",
+          "score": 0.7369
+        },
+        {
+          "rank": 3,
+          "faq_id": 30,
+          "category": "Pengembalian",
+          "question": "Apakah bisa menukar barang dengan ukuran/warna lain daripada refund?",
+          "answer": "Penukaran ukuran/warna tergantung kebijakan masing-masing penjual, silakan cek ketersediaan stok terlebih dahulu sebelum mengajukan.",
+          "score": 0.7151
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "type": "Parafrase",
+      "query": "Bisa nyicil nggak kalau belanja di sini?",
+      "expected": [
+        20
+      ],
+      "answer": "Halo Kak, bisa ya! Fitur cicilan tersedia untuk transaksi menggunakan kartu kredit tertentu dengan nominal minimal yang ditentukan oleh pihak bank. \n\nSumber: FAQ #20",
+      "sources": [
+        {
+          "rank": 1,
+          "faq_id": 20,
+          "category": "Pembayaran",
+          "question": "Apakah saya bisa membayar dengan cicilan?",
+          "answer": "Fitur cicilan tersedia untuk transaksi dengan kartu kredit tertentu pada nominal minimal yang ditentukan pihak bank.",
+          "score": 0.7974
+        },
+        {
+          "rank": 2,
+          "faq_id": 22,
+          "category": "Pembayaran",
+          "question": "Apakah bisa membayar menggunakan lebih dari satu metode sekaligus?",
+          "answer": "Saat ini sistem belum mendukung pembayaran gabungan (split payment) dalam satu transaksi.",
+          "score": 0.7003
+        },
+        {
+          "rank": 3,
+          "faq_id": 17,
+          "category": "Pembayaran",
+          "question": "Metode pembayaran apa saja yang tersedia?",
+          "answer": "Kami mendukung transfer bank, kartu kredit/debit, e-wallet, dan pembayaran melalui minimarket rekanan.",
+          "score": 0.6947
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "type": "Parafrase",
+      "query": "Saya kelupaan kata sandi jadi tidak bisa masuk ke akun",
+      "expected": [
+        32,
+        55
+      ],
+      "answer": "Halo, Kak. Jangan khawatir, Anda dapat mengatur ulang kata sandi akun Anda dengan langkah-langkah berikut:\n\n1. Klik 'Lupa Password' pada halaman login.\n2. Masukkan email terdaftar.\n3. Ikuti instruksi reset password yang dikirim ke email Anda.\n\nSumber: FAQ #32",
+      "sources": [
+        {
+          "rank": 1,
+          "faq_id": 32,
+          "category": "Akun",
+          "question": "Saya lupa password akun, bagaimana cara mengaturnya ulang?",
+          "answer": "Klik 'Lupa Password' pada halaman login, masukkan email terdaftar, lalu ikuti instruksi reset password yang dikirim ke email Anda.",
+          "score": 0.7784
+        },
+        {
+          "rank": 2,
+          "faq_id": 55,
+          "category": "Akun",
+          "question": "Kenapa akun saya tiba-tiba tidak bisa login?",
+          "answer": "Akun dapat terkunci sementara karena kesalahan login berulang atau terindikasi aktivitas mencurigakan. Silakan reset password atau hubungi customer service.",
+          "score": 0.748
+        },
+        {
+          "rank": 3,
+          "faq_id": 36,
+          "category": "Akun",
+          "question": "Apakah data pribadi saya aman di platform ini?",
+          "answer": "Kami menerapkan enkripsi data dan kebijakan privasi ketat untuk melindungi data pribadi pengguna sesuai regulasi yang berlaku.",
+          "score": 0.6763
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "type": "Di luar KB",
+      "query": "Apakah bisa bayar pakai Bitcoin atau crypto lainnya?",
+      "expected": [],
+      "answer": "Halo, terima kasih telah menghubungi kami. Maaf, informasi tersebut belum tersedia di FAQ kami. Silakan hubungi customer service kami untuk mendapatkan bantuan dan informasi lebih lanjut mengenai metode pembayaran tersebut.\n\nSumber: -",
+      "sources": [
+        {
+          "rank": 1,
+          "faq_id": 17,
+          "category": "Pembayaran",
+          "question": "Metode pembayaran apa saja yang tersedia?",
+          "answer": "Kami mendukung transfer bank, kartu kredit/debit, e-wallet, dan pembayaran melalui minimarket rekanan.",
+          "score": 0.7062
+        },
+        {
+          "rank": 2,
+          "faq_id": 22,
+          "category": "Pembayaran",
+          "question": "Apakah bisa membayar menggunakan lebih dari satu metode sekaligus?",
+          "answer": "Saat ini sistem belum mendukung pembayaran gabungan (split payment) dalam satu transaksi.",
+          "score": 0.6773
+        },
+        {
+          "rank": 3,
+          "faq_id": 18,
+          "category": "Pembayaran",
+          "question": "Apakah ada biaya tambahan untuk pembayaran menggunakan kartu kredit?",
+          "answer": "Beberapa metode kartu kredit dikenakan biaya admin tambahan yang besarannya ditampilkan sebelum konfirmasi pembayaran.",
+          "score": 0.6728
+        }
+      ]
+    },
+    {
+      "id": "Q8",
+      "type": "Di luar KB",
+      "query": "Jam berapa toko offline kalian buka di Jakarta?",
+      "expected": [],
+      "answer": "Halo! Maaf, informasi tersebut belum tersedia di FAQ kami. Silakan hubungi tim customer service kami untuk bantuan dan informasi lebih lanjut.\n\nSumber: -",
+      "sources": [
+        {
+          "rank": 1,
+          "faq_id": 43,
+          "category": "Produk",
+          "question": "Apakah stok yang tertera di aplikasi selalu update secara real-time?",
+          "answer": "Stok diperbarui secara berkala oleh penjual, namun kadang terjadi selisih kecil apabila ada transaksi bersamaan dari banyak pembeli.",
+          "score": 0.6351
+        },
+        {
+          "rank": 2,
+          "faq_id": 9,
+          "category": "Pengiriman",
+          "question": "Berapa lama estimasi waktu pengiriman barang?",
+          "answer": "Estimasi pengiriman umumnya 2-5 hari kerja untuk area dalam kota dan 5-10 hari kerja untuk luar pulau, tergantung jasa kirim yang dipilih.",
+          "score": 0.6324
+        },
+        {
+          "rank": 3,
+          "faq_id": 58,
+          "category": "Pemesanan",
+          "question": "Apakah bisa memesan dalam jumlah besar untuk kebutuhan reseller?",
+          "answer": "Untuk pembelian grosir, silakan hubungi penjual langsung melalui chat untuk menanyakan ketersediaan stok dan kemungkinan harga khusus.",
+          "score": 0.6295
+        }
+      ]
+    }
+  ]
+}
